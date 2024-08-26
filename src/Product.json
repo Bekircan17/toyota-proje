@@ -1,0 +1,331 @@
+[
+    {
+        "name": "Deterjan",
+        "category": "market",
+        "price": "15.00",
+        "barcode": "12345678",
+        "stock": 50
+    },
+    {
+        "name": "Sabun",
+        "category": "market",
+        "price": "5.50",
+        "barcode": "23456789",
+        "stock": 200
+    },
+    {
+        "name": "Şampuan",
+        "category": "market",
+        "price": "12.75",
+        "barcode": "34567890",
+        "stock": 80
+    },
+    {
+        "name": "Sıvı Sabun",
+        "category": "market",
+        "price": "7.20",
+        "barcode": "45678901",
+        "stock": 120
+    },
+    {
+        "name": "Pirinç",
+        "category": "market",
+        "price": "20.00",
+        "barcode": "56789012",
+        "stock": 60
+    },
+    {
+        "name": "Bulaşık Deterjanı",
+        "category": "ev temizlik",
+        "price": "10.00",
+        "barcode": "67890123",
+        "stock": 100
+    },
+    {
+        "name": "Çamaşır Suyu",
+        "category": "ev temizlik",
+        "price": "8.50",
+        "barcode": "78901234",
+        "stock": 90
+    },
+    {
+        "name": "Temizlik Bezi",
+        "category": "ev temizlik",
+        "price": "3.00",
+        "barcode": "89012345",
+        "stock": 150
+    },
+    {
+        "name": "Süpürge",
+        "category": "ev temizlik",
+        "price": "25.00",
+        "barcode": "90123456",
+        "stock": 40
+    },
+    {
+        "name": "Mop",
+        "category": "ev temizlik",
+        "price": "18.75",
+        "barcode": "01234567",
+        "stock": 30
+    },
+    {
+        "name": "Tava",
+        "category": "ev & mutfak gereçleri",
+        "price": "30.00",
+        "barcode": "12348765",
+        "stock": 70
+    },
+    {
+        "name": "Tencere",
+        "category": "ev & mutfak gereçleri",
+        "price": "45.00",
+        "barcode": "23459876",
+        "stock": 50
+    },
+    {
+        "name": "Bıçak Seti",
+        "category": "ev & mutfak gereçleri",
+        "price": "60.00",
+        "barcode": "34560987",
+        "stock": 40
+    },
+    {
+        "name": "Çatal Kaşık Seti",
+        "category": "ev & mutfak gereçleri",
+        "price": "25.00",
+        "barcode": "45671098",
+        "stock": 90
+    },
+    {
+        "name": "Çaydanlık",
+        "category": "ev & mutfak gereçleri",
+        "price": "35.00",
+        "barcode": "56782109",
+        "stock": 60
+    },
+    {
+        "name": "Atlet",
+        "category": "giyim & aksesuar",
+        "price": "15.00",
+        "barcode": "67893210",
+        "stock": 120
+    },
+    {
+        "name": "Pantolon",
+        "category": "giyim & aksesuar",
+        "price": "40.00",
+        "barcode": "78904321",
+        "stock": 80
+    },
+    {
+        "name": "Gömlek",
+        "category": "giyim & aksesuar",
+        "price": "35.00",
+        "barcode": "89015432",
+        "stock": 100
+    },
+    {
+        "name": "Ceket",
+        "category": "giyim & aksesuar",
+        "price": "75.00",
+        "barcode": "90126543",
+        "stock": 50
+    },
+    {
+        "name": "Şapka",
+        "category": "giyim & aksesuar",
+        "price": "20.00",
+        "barcode": "01237654",
+        "stock": 150
+    },
+    {
+        "name": "Masa",
+        "category": "ev & yaşam",
+        "price": "100.00",
+        "barcode": "12349876",
+        "stock": 30
+    },
+    {
+        "name": "Sandalye",
+        "category": "ev & yaşam",
+        "price": "50.00",
+        "barcode": "23450987",
+        "stock": 60
+    },
+    {
+        "name": "Lamba",
+        "category": "ev & yaşam",
+        "price": "45.00",
+        "barcode": "34562098",
+        "stock": 40
+    },
+    {
+        "name": "Vazo",
+        "category": "ev & yaşam",
+        "price": "20.00",
+        "barcode": "45673109",
+        "stock": 70
+    },
+    {
+        "name": "Perde",
+        "category": "ev & yaşam",
+        "price": "35.00",
+        "barcode": "56784210",
+        "stock": 80
+    },
+    {
+        "name": "Roman",
+        "category": "kitap & kırtasiye",
+        "price": "25.00",
+        "barcode": "67895321",
+        "stock": 100
+    },
+    {
+        "name": "Defter",
+        "category": "kitap & kırtasiye",
+        "price": "5.00",
+        "barcode": "78906432",
+        "stock": 200
+    },
+    {
+        "name": "Kalem",
+        "category": "kitap & kırtasiye",
+        "price": "2.50",
+        "barcode": "89017543",
+        "stock": 300
+    },
+    {
+        "name": "Silgi",
+        "category": "kitap & kırtasiye",
+        "price": "1.00",
+        "barcode": "90128654",
+        "stock": 400
+    },
+    {
+        "name": "Ajanda",
+        "category": "kitap & kırtasiye",
+        "price": "15.00",
+        "barcode": "01239765",
+        "stock": 150
+    },
+    {
+        "name": "Yoğurt",
+        "category": "market",
+        "price": "6.00",
+        "barcode": "12340987",
+        "stock": 90
+    },
+    {
+        "name": "Makarna",
+        "category": "market",
+        "price": "4.50",
+        "barcode": "23451976",
+        "stock": 100
+    },
+    {
+        "name": "Süt",
+        "category": "market",
+        "price": "3.75",
+        "barcode": "34562987",
+        "stock": 110
+    },
+    {
+        "name": "Ekmek",
+        "category": "market",
+        "price": "1.50",
+        "barcode": "45673998",
+        "stock": 250
+    },
+    {
+        "name": "Peynir",
+        "category": "market",
+        "price": "20.00",
+        "barcode": "56784909",
+        "stock": 70
+    },
+    {
+        "name": "Fırın Temizleyici",
+        "category": "ev temizlik",
+        "price": "14.00",
+        "barcode": "67895910",
+        "stock": 60
+    },
+    {
+        "name": "Cam Sil",
+        "category": "ev temizlik",
+        "price": "7.50",
+        "barcode": "78906921",
+        "stock": 90
+    },
+    {
+        "name": "Yer Silme Bezi",
+        "category": "ev temizlik",
+        "price": "5.00",
+        "barcode": "89017932",
+        "stock": 80
+    },
+    {
+        "name": "Ütü Masası",
+        "category": "ev temizlik",
+        "price": "75.00",
+        "barcode": "90128943",
+        "stock": 20
+    },
+    {
+        "name": "Çöp Torbası",
+        "category": "ev temizlik",
+        "price": "12.00",
+        "barcode": "01239954",
+        "stock": 130
+    },
+    {
+        "name": "Çay Bardağı",
+        "category": "ev & mutfak gereçleri",
+        "price": "8.00",
+        "barcode": "12340965",
+        "stock": 100
+    },
+    {
+        "name": "Kahve Makinesi",
+        "category": "ev & mutfak gereçleri",
+        "price": "150.00",
+        "barcode": "23451976",
+        "stock": 30
+    },
+    {
+        "name": "Fincan Takımı",
+        "category": "ev & mutfak gereçleri",
+        "price": "60.00",
+        "barcode": "34562987",
+        "stock": 50
+    },
+    {
+        "name": "Mikser",
+        "category": "ev & mutfak gereçleri",
+        "price": "120.00",
+        "barcode": "45673998",
+        "stock": 25
+    },
+    {
+        "name": "Ekmek Kızartma Makinesi",
+        "category": "ev & mutfak gereçleri",
+        "price": "80.00",
+        "barcode": "56784909",
+        "stock": 40
+    },
+    {
+        "name": "Çorap",
+        "category": "giyim & aksesuar",
+        "price": "10.00",
+        "barcode": "67895910",
+        "stock": 200
+    },
+    {
+        "name": "Kemer",
+        "category": "giyim & aksesuar",
+        "price": "25.00",
+        "barcode": "78906921",
+        "stock": 70
+    }
+]

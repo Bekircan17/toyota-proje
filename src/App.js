@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './giriş-ekranı/Login';
+import Home from './anasayfa/home'; // 'home.js' dosyasını 'Home' olarak düşündüm
+import SalesScreen from './satiş-ekrani/SalesScreen';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/main" element={<h1>Ana Sayfa</h1>} />
+        <Route path="/" element={<Login />} />
+        <Route path="/anasayfa/home.js" element={<Home />} />
+        <Route path="/sales" element={<SalesScreen />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

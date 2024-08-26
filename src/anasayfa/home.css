@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(212, 212, 212); /* Light gray background color for the whole page */
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.logo {
+    height: 100px; /* Logo height adjusted */
+}
+
+.store-info {
+    text-align: left;
+}
+
+.settings-button {
+    align-self: flex-start;
+}
+
+.buttons-grid {
+    width: 100%;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: white; /* White background color for buttons */
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative; /* Relative positioning for button content */
+    color: black; /* Black text color for button content */
+}
+
+
+.custom-button:hover {
+    background-color: #f0f0f0; /* Light gray background color on hover */
+}
+
+.custom-button .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white; /* Icon color */
+    background-color: #1976d2; /* Blue background color for icons */
+    position: absolute; /* Absolute positioning for icons */
+    left: 10px; /* Left position to align icons */
+}
+
+.custom-button .icon-container svg {
+    font-size: 20px; /* Adjust icon size */
+}
+
+.aslanagzi .icon-container {
+    background-color: #FF5733; /* Orange background color for specific buttons */
+}
+
+.acik-lacivert .icon-container {
+    background-color: #1A237E; /* Dark blue background color for specific buttons */
+}
+
+.sari .icon-container {
+    background-color: #FFD700; /* Yellow background color for specific buttons */
+}
+
+.acik-mavi .icon-container {
+    background-color: #00BFFF; /* Light blue background color for specific buttons */
+}
+
+.mor .icon-container {
+    background-color: #800080; /* Purple background color for specific buttons */
+}
+
+.turkuaz .icon-container {
+    background-color: #40E0D0; /* Turquoise background color for specific buttons */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+}
+
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-indicator.online {
+    background-color: green;
+}
+
+.status-indicator.offline {
+    background-color: red;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+}

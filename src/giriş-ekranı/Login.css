@@ -1,0 +1,67 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* açık gri arkaplan */
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-logo {
+  width: 100px; /* veya istediğiniz boyut */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.system-version {
+  margin-top: 10px;
+}
+
+.login-right {
+  padding: 20px;
+}
+
+.login-right h4 {
+  margin-bottom: 20px;
+}
+
+.login-right .MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+/* Inputların stillemesi */
+.login-right .MuiTextField-root .MuiInputBase-root {
+  position: relative;
+}
+
+.login-right .MuiTextField-root .MuiInputBase-root:before {
+  content: "";
+  position: absolute;
+  left: 10px; /* Logo ile input arasındaki mesafe */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-right .MuiTextField-root .MuiInputBase-root svg {
+  width: 24px; /* İkon genişliği */
+  height: 24px; /* İkon yüksekliği */
+  fill: #666; /* İkon rengi */
+  position: absolute;
+  left: 12px; /* İkon ile input arasındaki mesafe */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-right .MuiTextField-root input {
+  padding-left: 40px; /* İkon ile input arasındaki mesafe + ikon genişliği */
+  border-radius: 5px; /* Köşelerin yuvarlatılması */
+}

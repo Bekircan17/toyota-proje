@@ -1,0 +1,281 @@
+.sales-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.header .back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header .title {
+  flex-grow: 1;
+  text-align: center;
+  color: #28a745;
+  margin: 0;
+}
+
+.header .price-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header .price-button:hover {
+  background-color: #0056b3;
+}
+
+.header .price-button:active {
+  background-color: #004a9c;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.left-panel, .center-panel, .right-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: auto;
+}
+
+.left-panel {
+  width: 25%;
+  background-color: #eaeaea;
+}
+
+.barcode-input {
+  display: flex;
+  align-items: center;
+}
+
+.barcode-input input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.barcode-input button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.barcode-input button:hover {
+  background-color: #218838;
+}
+
+.barcode-input button:active {
+  background-color: #1e7e34;
+}
+
+.category-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.category-buttons .categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-buttons .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.category-buttons .product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center-panel {
+  width: 50%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.selected-products {
+  flex-grow: 1;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.total-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.total-section .subtotal, .total-section .total {
+  font-size: 1.2em;
+}
+
+.right-panel {
+  width: 25%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group .upper-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.button-group .button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button-group .button:hover {
+  background-color: #0056b3;
+}
+
+.button-group .button:active {
+  background-color: #004a9c;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.input-section .clear-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-section .delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.numpad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.numpad .button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+}
+
+.numpad .button:hover {
+  background-color: #0056b3;
+}
+
+.numpad .button:active {
+  background-color: #004a9c;
+}
+
+.numpad .large-button {
+  width: 150px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.footer .left-footer {
+  flex: 1;
+}
+
+.footer .center-footer {
+  flex: 2;
+  text-align: center;
+}
+
+.footer .right-footer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.status-indicator.online {
+  background-color: green;
+}
+
+.status-indicator.offline {
+  background-color: red;
+}
